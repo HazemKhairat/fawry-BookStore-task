@@ -2,11 +2,11 @@ import java.util.*;
 
 public class Main {
 	public static void main(String[] args) {
-	    // create only one object of Inventory
+	    	// create only one object of Inventory
 		Inventory inventory = Inventory.getInstance();
 		
 		
-        // create new books
+        	// create new books
 		PaperBook book1 = new PaperBook("B120", "Atomic Habits", 2018, 150.0, 10);
 		EBook book2 = new EBook("B121", "Rich Dad Poor Dad", 2016, 150.0, "pdf");
 		DemoBook book3 = new DemoBook("B122", "book3", 2016);
